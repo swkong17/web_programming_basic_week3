@@ -12,7 +12,94 @@
 
     <hr></hr>
     <p>이 문서는 HTML의 기본 구조를 보여주기 위한 예시입니다. HTML은 웹 페이지를 만들기 위해 사용되는 마크업 언어입니다.</p>
+    <h2>글자모양 태그사용</h2>
+    <p><b>굵은 글씨 b</b></p>
+    <p><i>기울임꼴 글씨 i</i></p>
+    <p><u>밑줄 글씨 u</u></p>
+    <p><s>취소선 글씨 s</s></p>
+    <p><strong>강조 글씨 strong</strong></p>
+    <p><em>기울임꼴 글씨 em</em></p>
+    <p><mark>강조 글씨 mark</mark></p>
+<hr></hr>
 
-    
+    <h3>글머리 기호 목록</h3>
+    <ul type='circle'>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+    </ul>
+
+    <h3>순서 번호 목록</h3>
+    <ol type='i'>
+        <li>html</li>
+        <li>css</li>
+        <li>javascript</li>
+    </ol>
+
+    <h3>정의 목록</h3>
+    <dl>
+        <dt>html</dt>
+        <dd>하이퍼 텍스트 마크업 언어</dd>
+        <dt>css</dt>
+        <dd>캔버스 스타일 시트</dd>
+        <dt>javascript</dt>
+        <dd>자바스크립트</dd>
+    </dl>
+
+    <hr></hr>
+
+    <h4>테이블 만들기</h4>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>이름</th>
+                <th>나이</th>
+                <th>성별</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td rowspan="2">홍길동</td>
+                <td>30</td>
+                <td>남성</td>  
+            </tr>
+        </tbody>
+   
+        <tfoot>
+            <tr>
+                <td colspan="3">테이블 끝</td>
+                <td>테이블 이</td>
+                <td>테이블 다 </td>
+            </tr>               
+        </tfoot>
+    </table>
+    <hr></hr>
+
+    <h3>이미지 사용</h3>
+<img width="200" height="200" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfK-aYY3s7XdqlrRX9ekDmiomRjR-ExSZqJblIZnhziv7XvqnITC-050k&s=10
+>
+    <hr></hr>
+
+<h3>이미지 맵 사용</h3>
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTfK-aYY3s7XdqlrRX9ekDmiomRjR-ExSZqJblIZnhziv7XvqnITC-050k&s=10" usemap="#image-map" width="200" height="200">
+<map name="image-map">
+    <area target="" alt="이미지1" title="이미지1" href="https://www.naver.com" coords="0,0,100,100" shape="rect">
+    <area target="" alt="이미지2" title="이미지2" href="https://www.daum.net" coords="100,0,200,100" shape="rect">
+    <area target="" alt="이미지3" title="이미지3" href="https://www.google.com" coords="0,100,200,200" shape="rect">
+
+    <hr></hr>
+
+    <h3>오디오 사용</h3>
+    <audio controls>
+        <source src="https://pixabay.com/ko/music/%ED%96%89%EB%8F%99-dark-571483/" type="audio/mp3">
+    </audio>
+
+    <hr></hr>
+
+    <h3>비디오 사용</h3>
+    <video width="200" height="200" controls>
+        <source src="https://www.youtube.com/shorts/AB0cuxWAKzQ?feature=share" type="video/mp4">
+    </video>
 </body>
 </html>
